@@ -1,0 +1,19 @@
+#1 Please Ensure that you have installed XAMPP Controler on your system.
+
+#2 Go to local drive C:\xampp\htdocs
+#3 Paste your Prject Folder (example: C:\xampp\htdocs\PlantFuture)
+#4 Now turn on XAMPP and Start 	-->Apache
+				-->MySQL
+
+#5 Open your browser and type localhost/FolderName/index.php then press enter (example: localhost/PlantFuture/index.php)
+
+Now you can browse your project LIVE!
+
+
+GitHub Link: linklinklink		
+
+
+
+Thank you,
+
+Shaikh Nazmul Islam Masud

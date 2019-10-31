@@ -1,0 +1,44 @@
+If your data is not going into the database then please check that you have the right Database in your MySQL Server & Table.
+If the database and the table is missing then you need to create them which is so simple. Just FOLLOW ME -->
+
+#You need to install Xampp Control Panel v3.2.2 (I use version 3.2.2)
+
+#Go to XAMPP Control Panel and Start  --> 1) Apache
+					  2) MySQL
+#Go to your browser (open Chrome)
+#Type this url -->	http://localhost/phpmyadmin/
+
+Now you are in the main dashboad, just create a database. In your left side, there is an option named "New".
+
+#click on that "New"
+#type database name "test"
+#select collation "latin1_swedish_ci"
+
+now create the tables
+
+#type table name "customer" n select number of columns "5"
+#press on "go" button
+#type column name as follows --> "id",	"name",		"username",	"email",	"password"
+#select the type as follows -->  "int"	"varchar"	"varchar"	"varchar"	"varchar"
+#select the length as follows--> "100"	"100"		"100"		"100"		"100"
+#for "id", mark it as Null Index, select as Primary key, Mark on A_I (auto increment)
+#now just save it and your first table is ready
+
+Create another table same way
+#the database you created named test, see there is your table named customer, before the table there is a option name "New"
+#just click on that new again n select number of columns "5"
+#type table name "orderitem"
+#type column name as follows --> "id",		"name",		"item",		"quantity",	"address"
+#select the type as follows -->  "int"		"varchar"	"varchar"	"int"		"varchar"
+#select the length as follows--> "100"		"100"		"100"		"100"		"200"
+#for "id", mark it as Null Index, select as Primary key, Mark on A_I (auto increment)
+#now just save it and your second table is also ready
+
+now go and run your project
+
+
+
+
+Thank you,
+
+Shaikh Nazmul Islam Masud
